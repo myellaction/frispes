@@ -1,0 +1,1207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="fonts/Playfair Display/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Lato/stylesheet.css">
+    <link rel="stylesheet" href="fonts/Lora/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <!--Навигация-->
+        <nav class="nav">
+            <div class="nav__title">Frispes</div>
+            <ul class="nav__list">
+                <li class="nav__list-item"><a href="#">Home</a></li>
+                <li class="nav__list-item"><a href="#">Workspace</a></li>
+                <li class="nav__list-item"><a href="#">Service</a></li>
+                <li class="nav__list-item"><a href="#">Events</a></li>
+                <li class="nav__list-item"><a href="#">Reviews</a></li>
+                <li class="nav__list-item"><a href="#">Contact Us</a></li>
+            </ul>
+            <div class="nav__buttons">
+                <div class="nav__login">Log In</div>
+                <div class="nav__singup nav__selected-button">Sing Up</div>
+            </div>
+        </nav>
+
+        <!--Интро-->
+        <section class="intro">
+            <div class="intro__text main-block">
+                <div class="main-title">Introducing</div> 
+                <div class="main-line"></div>
+            </div>
+            <div class="intro__parts">
+                <div class="intro__left-part">
+                    <span class="red">Revolutionary</span> co-working space to realize your innovation
+                </div>
+                <div class="intro__right-part">
+                    In frispes, we spearhead new initiatives and provide mentorship to a new startup, and help grow their opportunities in key local, regional and global markets
+                </div>
+            </div>
+            <div class="intro__menu-picture">
+                <div class="intro__wrapper-menu">
+                    <div class="intro__menu">
+                        <p class="intro__menu-title">Find you space now</p>
+                        <div class="intro__select-item">
+                            <div class="intro__select-type">Location</div>
+                            <div class="intro__select-data">Ottawa, Canada</div>
+                            <img class="intro__arrow" src="icons/chevron-down.svg">
+                        </div>
+
+                        <!--Выпадающее меню-->
+                        <div class="intro__dropdown-wrapper dropdown-wrapper" id="dropdown-first">
+                            <div class="intro__dropdown dropdown">
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Canberra, Australia</div>
+                
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Vienna, Austria</div>
+                                    
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Brasilia, Brazil</div>
+                                    
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Sofia, Bulgaria</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text selected-dropdown">Ottawa, Canada</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Santiago, Chile</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Bogota, Colombia</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Nicosia, Cyprus</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Prague, Czech Republic</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Copenhagen, Denmark</div> 
+                                </div>
+                            </div>
+                        </div>
+                        <div class="intro__select-item">
+                            <div class="intro__select-type">Type</div>
+                            <div class="intro__select-data">Private Office</div>
+                            <img class="intro__arrow" src="icons/chevron-down.svg">
+                        </div>
+
+                        <!--Выпадающее меню-->
+                        <div class="intro__dropdown-wrapper dropdown-wrapper" id="dropdown-second">
+                            <div class="intro__dropdown dropdown">
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Large Apartments</div>
+                                    
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Small Apartments</div>
+                                    
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text selected-dropdown">Private Office</div>
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Private House</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Office With Furniture</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Stock</div> 
+                                </div>
+                                <div class="intro__select-item dropdown-item">
+                                    <div class="intro__select-data dropdown-text">Floors</div> 
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="intro__select-item">
+                            <div class="intro__select-type">Date</div>
+                            <div class="intro__select-data"></div>
+                            <img class="intro__arrow" src="icons/chevron-down.svg">
+                        </div>
+
+                        <!--Календарь-->
+                        <div class="intro__dropdown-wrapper dropdown-wrapper" id="dropdown-third">
+                            <div class="intro__calendar calendar">
+                                <div class="calendar__wdays">
+                                    <div class="calendar__wday">Sun</div>
+                                    <div class="calendar__wday">Mon</div>
+                                    <div class="calendar__wday">Tue</div>
+                                    <div class="calendar__wday">Wed</div>
+                                    <div class="calendar__wday">Thu</div>
+                                    <div class="calendar__wday">Fri</div>
+                                    <div class="calendar__wday">Sat</div>
+                                </div>
+                                <div class="calendar__line"></div>
+                            </div>
+                        </div>
+                        <button class="intro__button">FIND MY SPACE</button>
+                    </div>
+                    <div class="intro__hide-menu">
+                        <p class="intro__menu-title">Thank you</p>
+                        <p class="intro__receive-message">
+                            We have received your request to book an <span class="red"></span><br><br>
+                            If you have any questions, please contact us by email hello@frispes.com or phone number (+62) 82334670000.
+                        </p>
+                        <div class="intro__hide-image"><img src="icons/checked.png" alt=""></div>
+                        <div class="intro__disappear">This message will disappear after 4 seconds.<br>To stop the countdown, move your mouse over message.</div>
+                    </div>
+                </div>
+
+                <div class="intro__picture">
+                    <img src="img/intro-picture.png">
+                </div>
+            </div>
+        </section>
+
+        <!--Our space-->
+        <section class="space">
+            <div class="space__description">
+                <div class="space__title big-title">Our Spaces</div>
+                <div class="space__text">Our space is designed to give you a different experience when working with your team or personally</div>
+                <div class="space__arrows">
+                    <span class="space__left-arrow">
+                        <img src="icons/left-arrow.svg">
+                    </span>
+                    <span class="space__right-arrow space__active-arrow">
+                        <img src="icons/right-arrow.svg">
+                    </span>
+                </div>
+            </div>
+
+            <div class="space__slider">
+                <div class="space__slides-block">
+                    <div class="space__slides">
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide1.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Working with team</p>
+                            
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide space__slide-selected">
+                                <img src="img/slide2.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Private Space</p>
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide3.jpg">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Custom Office</p>
+                        </div>
+                        
+                    </div>
+                    <div class="space__slides">
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide1.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Working with team</p>
+                            
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide space__slide-selected">
+                                <img src="img/slide2.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Private Space</p>
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide3.jpg">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Custom Office</p>
+                        </div>
+                        
+                    </div>
+                    <div class="space__slides">
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide1.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Working with team</p>
+                            
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide space__slide-selected">
+                                <img src="img/slide2.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Private Space</p>
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide3.jpg">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Custom Office</p>
+                        </div>
+                        
+                    </div>
+                    <div class="space__slides">
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide1.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Working with team</p>
+                            
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide space__slide-selected">
+                                <img src="img/slide2.png">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Private Space</p>
+                        </div>
+
+                        <div class="space__slide-block">
+                            <div class="space__slide">
+                                <img src="img/slide3.jpg">
+                                <div class="space__bookmark">
+                                    <img src="icons/chevron-right.svg">
+                                </div>
+                                <div class="space__hover-block">
+                                    <img src="icons/rect-line.svg">
+                                    <p class="space__hover-title">Private Space</p>
+                                    <p class="space__hover-text">Comfortable space, Full speed wifi, Free coffe & Snack and many more</p>
+                                </div>
+                            </div>
+                            <p class="space__slide-title">Custom Office</p>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="space__slider-icons">
+                    <div class="space__slider-icon space__slider-icon-selected"></div>
+                    <div class="space__slider-icon"></div>
+                    <div class="space__slider-icon"></div>
+                    <div class="space__slider-icon"></div>
+                </div>
+                <div class="space__slider-nums">
+                    <span class="space__num-start">01 </span>/
+                    <span class="space__num-end">04</span>
+                </div>
+            </div>
+
+        </section>
+
+        <!--Stat-->
+        <section class="stat">
+            <div class="stat__left-wrapper">
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/meeting-room 1.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">500+</p>
+                        <p class="stat__descr">Meeting rooms</p>
+                    </div>
+                </div>
+
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/circus 1.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">100+</p>
+                        <p class="stat__descr">Event spaces</p>
+                    </div>
+                </div>
+
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/Flag.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">60+</p>
+                        <p class="stat__descr">Countries</p>
+                    </div>
+                </div>
+
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/wifi 1.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">500 Mbps</p>
+                        <p class="stat__descr">Internet speed</p>
+                    </div>
+                </div>
+
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/User 24px-1.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">5K+</p>
+                        <p class="stat__descr">Startup mentors</p>
+                    </div>
+                </div>
+
+                <div class="stat__block">
+                    <div class="stat__block-icon">
+                        <img src="icons/User 24px.svg">
+                    </div>
+                    <div class="stat__count-block">
+                        <p class="stat__count">200+</p>
+                        <p class="stat__descr">Communities inside</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stat__right-wrapper">
+                <div class="stat__right-title-block">
+                    <p class="stat__right-title">Why Frispes</p>
+                    <div class="stat__line"></div>
+                </div>
+                <div class="stat__right-header">
+                    We revolutionize your workspace
+                </div>
+                <div class="stat__right-description">
+                    With a decade of insights and expertise, we're decided to reimagine co-working space, designed to help a new startup grow up and realize their ideas so they can give a positive impacts on many people
+                </div>
+            </div>
+
+        </section>
+
+        <!--Facilities-->
+        <section class="facilities">
+            <div class="facilities__text main-block">
+                <div class="main-title">Our Facilities</div> 
+                <div class="main-line"></div>
+            </div>
+            <p class="facilities__big-title big-title">All facilities are designed to meet all your needs</p>
+            <div class="facilities__list-image">
+                <ul class="facilities__list">
+                    <li class="facilities__list-item">
+                        <span class="facilities__list-item-text">Spacious parking area</span>
+                    </li>
+                    <li class="facilities__list-item">
+                        <span class="facilities__list-item-text">Comfortable spaces
+                            
+                        </span>
+                    </li>
+                    <li class="facilities__list-item">
+                        <span class="facilities__list-item-text facilities__list-item-selected">Cozy cafe</span>
+                    </li>
+                    <li class="facilities__list-item">
+                        <span class="facilities__list-item-text">Child playground
+
+                        </span>
+                    </li>
+                    <li class="facilities__list-item">
+                        <span class="facilities__list-item-text">Outdoor spaces</span>
+                    </li>
+                </ul>
+                <div class="facilities__image-block">
+                    <img src="img/facilities/parking.jpg">
+                    <img src="img/facilities/comfortable.jpg">
+                    <img src="img/facilities/bar.png">
+                    <img src="img/facilities/children.jpg">
+                    <img src="img/facilities/outdoor.jpg">
+                </div>
+            </div>
+        </section>
+
+        <!--Gallery-->
+        <section class="gallery">
+            <div class="gallery__right-part">
+                <div class="gallery__text main-block">
+                    <div class="main-title">Frispes gallery</div> 
+                    <div class="main-line"></div>
+                </div>
+                <p class="gallery__header big-title">Immersive beautiful<br> co-working space gallery</p>
+                <div class="gallery__arrows space__arrows">
+                    <span class="space__left-arrow">
+                        <img src="icons/left-arrow-active.svg">
+                    </span>
+                    <span class="space__right-arrow space__active-arrow">
+                        <img src="icons/right-arrow.svg">
+                    </span>
+                </div>
+            </div>
+
+            <div class="gallery__slider-block">
+                <div class="gallery__slide "> 
+                    <img src="img/slide4.jpg" alt="">
+                </div>
+                <div class="gallery__slide"> 
+                    <img src="img/slide5.jpg" alt="">
+                </div>
+                <div class="gallery__slide"> 
+                    <img src="img/slide6.jpg" alt="">
+                </div>
+                <div class="gallery__slide"> 
+                    <img src="img/slide7.jpg" alt="">
+                </div>
+                <div class="gallery__slide"> 
+                    <img src="img/slide8.jpg" alt="">
+                </div>
+                <div class="gallery__slide"> 
+                    <img src="img/slide9.jpg" alt="">
+                </div>
+            </div>
+
+        </section>
+
+        <!--Brands-->
+        <section class="brands">
+            <p class="brands__title big-title">
+                Who uses Frispes?
+            </p>
+
+            <p class="brands__description">
+                Big brands, small bussiness, new startuo and inividuals
+            </p>
+
+            <div class="brands__images">
+                <img src="icons/Logo.svg" alt="">
+                <img src="icons/Logo-1.svg" alt="">
+                <img src="icons/Logo-2.svg" alt="">
+                <img src="icons/Logo-3.svg" alt="">
+                <img src="icons/Logo-4.svg" alt="">
+                <img src="icons/Logo-5.svg" alt="">
+            </div>
+        </section>
+
+        <!--Reviews-->
+        <section class="reviews">
+            <div class="reviews__text main-block">
+                <div class="main-title">Reviews</div> 
+                <div class="main-line"></div>
+            </div>
+            <div class="reviews__title-arrows">
+                <p class="reviews__big-title big-title">What our customers are saying</p>
+                <div class="reviews__arrows space__arrows">
+                    <span class="space__left-arrow">
+                        <img src="icons/left-arrow.svg">
+                    </span>
+                    <span class="space__right-arrow space__active-arrow">
+                        <img src="icons/right-arrow.svg">
+                    </span>
+                </div>
+            </div>
+
+            <div class="reviews__slider">
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review2.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Pedro Ibanez</span>
+                            <span class="reviews__work">UI Designer at Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review3.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Raymond Thual</span>
+                            <span class="reviews__work">Professional Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Just three words : Frispes is Awesome!
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review1.png" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Yuli Berlian</span>
+                            <span class="reviews__work">IOS Dev at Tokopedia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review2.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Pedro Ibanez</span>
+                            <span class="reviews__work">UI Designer at Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review3.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Raymond Thual</span>
+                            <span class="reviews__work">Professional Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Just three words : Frispes is Awesome!
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review1.png" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Yuli Berlian</span>
+                            <span class="reviews__work">IOS Dev at Tokopedia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review2.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Pedro Ibanez</span>
+                            <span class="reviews__work">UI Designer at Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review3.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Raymond Thual</span>
+                            <span class="reviews__work">Professional Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Just three words : Frispes is Awesome!
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review1.png" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Yuli Berlian</span>
+                            <span class="reviews__work">IOS Dev at Tokopedia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Our team has been working at frispes for almost 2 months because our office still closed. During working at frispes, we feel a new experience, we can feel working with a beautiful, modern, and comfortable space. And cozy cafe with high-speed internet  in there. Thank you for frispes and team.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review2.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Pedro Ibanez</span>
+                            <span class="reviews__work">UI Designer at Google</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        The high-speed internet at frispes was so amazing. I can get best experience when running video call with my clients. Frispes has spacious and safe parking area, that’s what i need because i used to work as freelancer for a long time.
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review3.jpg" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Raymond Thual</span>
+                            <span class="reviews__work">Professional Freelancer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reviews__slide">
+                    <div class="reviews__slide-text">
+                        Just three words : Frispes is Awesome!
+                    </div>
+                    <div class="reviews__author">
+                        <div class="reviews__image">
+                            <img src="img/reviews/review1.png" alt="">
+                        </div>
+                        <div class="reviews__name-work">
+                            <span class="reviews__name">Yuli Berlian</span>
+                            <span class="reviews__work">IOS Dev at Tokopedia</span>
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+            <div class="space__slider-icons">
+                <div class="space__slider-icon space__slider-icon-selected"></div>
+                <div class="space__slider-icon"></div>
+                <div class="space__slider-icon"></div>
+                <div class="space__slider-icon"></div>
+            </div>
+            <div class="space__slider-nums">
+                <span class="space__num-start">01 </span>/
+                <span class="space__num-end">04</span>
+            </div>
+
+        </section>
+
+        <!--Answers-->
+        <section class="answers">
+            <div class="answers__title big-title">
+                Find the answers to anything you need in our Help Center
+            </div>
+            <div class="answers__blocks">
+                <div class="answers__block-wrapper">
+                    <div class="answers__answer">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__block">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__blur"></div>
+                    <div class="answers__button-block">
+                        <div class="answers__button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.005 15.4C11.785 15.4 11.585 15.32 11.425 15.16L6.42501 9.95999C6.12501 9.63999 6.125 9.14 6.445 8.82C6.765 8.52 7.26502 8.52 7.58502 8.84L12.005 13.44L16.425 8.84C16.725 8.52 17.245 8.52 17.565 8.82C17.885 9.12 17.885 9.63999 17.585 9.95999L12.585 15.16C12.425 15.32 12.225 15.4 12.005 15.4Z" />
+                            </svg>
+                        </div>
+                        <div class="answers__button-blur"></div>
+                    </div>
+                </div>
+
+                <div class="answers__block-wrapper">
+                    <div class="answers__answer">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__block">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__blur"></div>
+                    <div class="answers__button-block">
+                        <div class="answers__button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.005 15.4C11.785 15.4 11.585 15.32 11.425 15.16L6.42501 9.95999C6.12501 9.63999 6.125 9.14 6.445 8.82C6.765 8.52 7.26502 8.52 7.58502 8.84L12.005 13.44L16.425 8.84C16.725 8.52 17.245 8.52 17.565 8.82C17.885 9.12 17.885 9.63999 17.585 9.95999L12.585 15.16C12.425 15.32 12.225 15.4 12.005 15.4Z" />
+                            </svg>
+                        </div>
+                        <div class="answers__button-blur"></div>
+                    </div>
+                </div>
+
+                <div class="answers__block-wrapper">
+                    <div class="answers__answer">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__block">
+                        <span>How do reviews work?</span>
+                    </div>
+                    <div class="answers__blur"></div>
+                    <div class="answers__button-block">
+                        <div class="answers__button">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="white" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M12.005 15.4C11.785 15.4 11.585 15.32 11.425 15.16L6.42501 9.95999C6.12501 9.63999 6.125 9.14 6.445 8.82C6.765 8.52 7.26502 8.52 7.58502 8.84L12.005 13.44L16.425 8.84C16.725 8.52 17.245 8.52 17.565 8.82C17.885 9.12 17.885 9.63999 17.585 9.95999L12.585 15.16C12.425 15.32 12.225 15.4 12.005 15.4Z" />
+                            </svg>
+                        </div>
+                        <div class="answers__button-blur"></div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="answers__more">
+                <span class="answers__more-text">
+                    More questions
+                </span>
+                <img src="icons/more-arrow.svg" alt="">
+            </div>
+        </section>
+    </div>
+
+        <!--News-->
+        <section class="news">
+            <div class="wrapper">
+                <div class="news__title-link">
+                    <div class="news__title big-title">
+                        News, events and insights for you
+                    </div>
+                    <div class="news__link">
+                        <span class="answers__more-text">See More</span>
+                        <img src="icons/more-arrow.svg" alt="">
+                    </div>
+                </div>
+                <div class="news__block">
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 38.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 39-3.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__description">
+                            <p class="news__item-title">Minimal workspace for inspirations</p>
+                            <p class="news__author">Anthony Masional</p>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 39-2.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__description">
+                            <p class="news__item-title">Does productivity increase when working remotely ? </p>
+                            <p class="news__author">Franck Martin</p>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 39-1.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__description">
+                            <p class="news__item-title">Morning routine to boost your mood</p>
+                            <p class="news__author">Elizabeth swan</p>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 39.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__description">
+                            <p class="news__item-title">5+ tips to find comfortable co-working space</p>
+                            <p class="news__author">Mykola Ilschenko</p>
+                        </div>
+                    </div>
+
+                    <div class="news__item">
+                        <img src="img/news/Rectangle 39-3.png">
+                        <div class="news__hidden">
+                            <p class="news__hidden-title">
+                                Google I / O 2023 news update
+                            </p>
+                            <p class="news__hidden-text">
+                                Out of concern for the health and safety of our developers, employees, and local communities — and in line with recent ...
+                            </p>
+                            <div class="news__hidden-author">
+                                <div class="news__image">
+                                    <img src="img/reviews/review2.jpg">
+                                </div>
+                                <div class="news__hidden-name-block">
+                                    <p class="news__hidden-name">Sundar pichai</p>
+                                    <p class="news__hidden-work">CEO at Google</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__description">
+                            <p class="news__item-title">Minimal workspace for inspirations</p>
+                            <p class="news__author">Anthony Masional</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--Member-->
+        <section class="member">
+            <div class="member__wrapper wrapper">
+                <div class="member__text main-block">
+                    <div class="main-title">Became a member</div> 
+                    <div class="main-line"></div>
+                </div>
+                <p class="member__title big-title">Ready to try different work experience now?</p>
+                <p class="member__description">Get the best working experience that you never feel before</p>
+                <button class="member__button intro__button">SIGN UP NOW</button>
+                <div class="member__man-block">
+                    <div class="member__man">
+                        <img src="img/man.png" alt="">
+                    </div>
+                    <div class="member__rect-1">
+                        <img src="icons/member-line.svg" alt="">
+                    </div>
+                    <div class="member__rect-2">
+                        <img src="icons/member-line.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="footer">
+            <div class="footer__wrapper wrapper">
+                <div class="footer__left-wrapper">
+                    <p class="footer__title">Frispes</p>
+                    <p class="footer__description">We offer comfortable spaces, cozy cafe, high-speed internet, spacious parking area and many more for your best workspaces and meetings</p>
+                    <div class="footer__images">
+                        <img src="icons/social/Instagram (filled).svg" alt="">
+                        <img src="icons/social/YouTube.svg" alt="">
+                        <img src="icons/social/Facebook.svg" alt="">
+                    </div>
+                </div>
+                <div class="footer__right-wrapper">
+                    <div class="footer__block">
+                        <p class="footer__block-title">
+                            Spaces
+                        </p>
+                        <p class="footer__block-text">
+                            Co-working spaces
+                        </p>
+                        <p class="footer__block-text">
+                            Meeting rooms
+                        </p>
+                        <p class="footer__block-text">
+                            Event spaces
+                        </p>
+                        <p class="footer__block-text">
+                            Child playground
+                        </p>
+                        <p class="footer__block-text">
+                            Cafe & resto
+                        </p>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__block-title">
+                            Company
+                        </p>
+                        <p class="footer__block-text">
+                            About Us
+                        </p>
+                        <p class="footer__block-text">
+                            Pricing
+                        </p>
+                        <p class="footer__block-text">
+                            Careers
+                        </p>
+                        <p class="footer__block-text">
+                            Press
+                        </p>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__block-title">
+                            Support
+                        </p>
+                        <p class="footer__block-text">
+                            FAQs
+                        </p>
+                        <p class="footer__block-text">
+                            Privacy Policy
+                        </p>
+                        <p class="footer__block-text">
+                            Help
+                        </p>
+                    </div>
+                    <div class="footer__block">
+                        <p class="footer__block-title">
+                            Contact Us
+                        </p>
+                        <p class="footer__block-text">
+                            E.&nbsp;&nbsp;hello@frispes.com
+                        </p>
+                        <p class="footer__block-text">
+                            A.&nbsp;&nbsp;Jalan Jayakatwang  No.301<br>&nbsp;&nbsp;&nbsp;&nbsp; Ngasem, Kediri
+                        </p>
+                        <p class="footer__block-text">
+                            P.&nbsp;&nbsp;(+62) 82334670000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <!--Login-->
+        <div class="modal-login">
+            <div class="modal"></div>
+            <div class="login-register">
+                <div class="login">
+                    <p class="login__title">Log In</p>
+                    <div class="login__block">
+                        <div class="login__label-block">
+                            <label class="login__label" for="username-login">
+                                Username
+                            </label>
+                        </div>
+                        <input class="login__input" type="text" id="username-login">
+                    </div>
+                    <div class="login__block">
+                        <div class="login__label-block">
+                            <label class="login__label" for="password-login">
+                                Password
+                            </label>
+                        </div>
+                        <input class="login__input" type="text" id="password-login">
+                    </div>
+                    <div class="login__checkbox-link">
+                        <div class="login__checkbox">
+                            <input type="checkbox" id="checkbox-login">
+                            <label for="checkbox-login">Remember Me</label>
+                        </div>
+                        <div class="login__link">
+                            Forgot Password?
+                        </div>
+                    </div>
+                    <button class="login__button intro__button">LOG IN</button>
+                </div>
+                <div class="register">
+                    <div class="register__block">
+                        <div class="register__title-close">
+                            <p class="login__title register__title">Sing Up</p>
+                            <img src="icons/delete-button.png" alt="">
+                        </div>
+                        <div class="login__block">
+                            <div class="login__label-block">
+                                <label class="login__label register__label" for="username-register">
+                                    Username
+                                </label>
+                            </div>
+                            <input class="login__input register__input" type="text" id="username-register">
+                        </div>
+                        <div class="login__block">
+                            <div class="login__label-block">
+                                <label class="login__label register__label" for="password-register">
+                                    Password
+                                </label>
+                            </div>
+                            <input class="login__input register__input" type="text" id="password-register">
+                        </div>
+                        <div class="login__block">
+                            <div class="login__label-block">
+                                <label class="login__label register__label" for="password-confirm">
+                                    Confirm Password
+                                </label>
+                            </div>
+                            <input class="login__input register__input" type="text" id="password-confirm">
+                        </div>
+                        <div class="login__block register__email">
+                            <div class="login__label-block">
+                                <label class="login__label register__label" for="email">
+                                    Email Address
+                                </label>
+                            </div>
+                            <input class="login__input register__input" type="text" id="email">
+                        </div>
+                        <button class="login__button intro__button">REGISTER</button>
+                    </div>
+                    <div class="register__hide">
+                        <div class="register__lines">
+                            <div class="register__line"></div>
+                            <div class="register__line"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+               
+    <script src="js/bundle.js"></script>
+</body>
+</html>
