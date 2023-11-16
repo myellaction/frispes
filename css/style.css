@@ -649,7 +649,7 @@ table {
 .dropdown {
   position: absolute;
   height: 408px;
-  overflow-y: auto;
+  overflow-y: scroll;
   top: -408px;
   overscroll-behavior-y: none;
 }
