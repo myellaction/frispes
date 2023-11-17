@@ -503,8 +503,6 @@ table {
   height: 459px;
   position: absolute;
   z-index: 2;
-  left: -445px;
-  opacity: 0;
 }
 .intro__hide-menu {
   width: 445px;
@@ -558,9 +556,8 @@ table {
 }
 .intro__picture {
   position: absolute;
-  right: -800px;
+  right: 0px;
   top: 0px;
-  opacity: 0;
 }
 .intro__picture img {
   -o-object-fit: cover;
