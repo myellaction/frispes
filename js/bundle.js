@@ -774,7 +774,7 @@ window.addEventListener('DOMContentLoaded', () => {
   new _modules_slider__WEBPACK_IMPORTED_MODULE_2__["default"]('.reviews', '.reviews__slider', '.space__left-arrow', '.space__right-arrow', 1200, '.space__slider-icons', '.space__slider-nums', 3).init();
   new _modules_smallSlider__WEBPACK_IMPORTED_MODULE_3__["default"]('.gallery', '.gallery__slider-block', '.space__left-arrow', '.space__right-arrow', 352, 'gallery__slide-selected').init();
   new _modules_easySlider__WEBPACK_IMPORTED_MODULE_4__["default"]('.facilities__list', '.facilities__image-block', 'facilities__list-item-selected').init();
-  new _modules_moveAnimation__WEBPACK_IMPORTED_MODULE_5__["default"]('.intro__wrapper-menu', '.intro__picture').init();
+  //new MoveAnimation('.intro__wrapper-menu', '.intro__picture').init();
 });
 })();
 
